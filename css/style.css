@@ -1,0 +1,210 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css);
+@import url(http://fonts.googleapis.com/css?family=Lato|Bad+Script);
+
+body{
+	background:url("../img/crossword.png");
+	font-family: 'Lato', sans-serif;
+}
+
+a{
+	color:#333333;
+	text-decoration: none;
+}
+
+.wrapper{
+	width:100%;
+	background-size:cover;
+	position:relative;
+}
+
+.navigator{
+	position:absolute;
+	width:100%;
+	height:40px;
+	border-bottom:dashed 1px #b8b8b8;
+	top:0;
+}
+
+.navigator>p{
+	float:left;
+	padding:10px;
+	font-family: 'Bad Script', cursive;
+	font-size:24px;
+	color:#b8b8b8;
+}
+
+.navigator>p>span{
+	font-size:16px;
+}
+
+
+.mainBody{
+	width:100%;
+	position:absolute;
+}
+
+.mainBody h1{
+	font-family: 'Lato', sans-serif;
+	font-size:1.5em;
+	padding:10px;
+	text-align:center;
+	font-weight: thin;
+	-webkit-animation:fadeInUp 0.5s;
+	animation:fadeInUp 0.5s;
+}
+
+
+.mainBody h4{
+	font-family: 'Bad Script', cursive;
+	font-size:1em;
+	padding:10px;
+	text-align:center;
+	font-weight: thin;
+	line-height:1.5em;
+	-webkit-animation:fadeInUp 2s;
+	animation:fadeInUp 2s;
+}
+
+.mainBody p{
+	text-align:center;
+}
+
+.mainBody span.heart{
+position:relative;
+width:34px;
+overflow:inherit;
+color:#a11e1e;
+margin:0 auto;
+-webkit-animation:animateHeart 2.5s infinite;
+animation:animateHeart 2.5s infinite;
+}
+
+
+.mainBody span.codeSign{
+	font-size:22px;
+	font-weight: bold;
+}
+
+#canvas{
+	max-width:800px;
+	margin:0 auto;
+	margin-top:10%;
+	position:relative;
+}
+
+
+.innerBody{
+	position:relative;
+	top:-220px;
+}
+
+.innerBody p{
+	text-align:center;
+	padding:10px;
+}
+
+span.line{
+	width:25%;
+	display:block;
+	border-bottom:dashed 1px #000;
+	margin:0 auto;
+	-webkit-animation:width 3s;
+	animation:width 3s;
+}
+
+.innerBody>ul{
+	margin:0 auto;
+	padding-top:15px;
+	width:105px;
+}
+
+.innerBody>ul>li{
+	display:inline-block;
+	padding:10px;
+	-webkit-animation:fadeInUp 3s;
+	animation:fadeInUp 3s;
+}
+
+.innerBody>ul>li>a{
+	/*color:#b8b8b8;*/
+	color:#a11e1e;
+}
+
+.innerBody>ul>li>a:hover .fa{
+	color:#a11e1e;
+	transform: scale(1.8);
+	transition: all 0.2s ease-in-out;
+}
+
+.innerBody p.author{
+	text-transform:uppercase;
+	color:#a11e1e;
+	font-size:10px;
+	-webkit-animation:fadeInUp 3s;
+	animation:fadeInUp 3s;
+}
+
+/** Animations **/
+
+@-webkit-keyframes animateHeart{
+	0%{-webkit-transform:scale(1)}
+	5%{-webkit-transform:scale(1.2)}
+	10%{-webkit-transform:scale(1.1)}
+	15%{-webkit-transform:scale(1.3)}
+	50%{-webkit-transform:scale(1)}
+	100%{-webkit-transform:scale(1)}
+}
+
+@keyframes animateHeart{
+	0%{transform:scale(1)}
+	5%{transform:scale(1.2)}
+	10%{transform:scale(1.1)}
+	15%{transform:scale(1.3)}
+	50%{transform:scale(1)}
+	100%{transform:scale(1)}
+}
+
+@-webkit-keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.width {
+  -webkit-animation-name: width;
+  animation-name: width;
+}
+
+@-webkit-keyframes width {
+  0% {
+    opacity: 0;
+   	width:0px;
+  }
+
+  100% {
+    opacity: 1;
+    width:25%;
+  }
+}
