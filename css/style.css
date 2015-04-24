@@ -1,6 +1,7 @@
 @import url(https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css);
 @import url(http://fonts.googleapis.com/css?family=Lato|Bad+Script);
 
+<<<<<<< HEAD
 /**
  * fullPage Pure Javascript v.0.0.4 (Alpha) - Not support given until Beta version.
  * https://github.com/alvarotrigo/fullPage.js
@@ -199,11 +200,23 @@ html, body {
 
 /*** Base styles****/
 
+=======
+html{
+	background-color:red;
+}
+
+body{
+	background:url("../img/crossword.png");
+	font-family: 'Lato', sans-serif;
+}
+
+>>>>>>> c3636ab6346013ed0ce5c4b82b61517f5b09375c
 a{
 	color:#333333;
 	text-decoration: none;
 }
 
+<<<<<<< HEAD
 #section0{
             background: url("../img/crossword.png");
     }
@@ -211,6 +224,18 @@ a{
 #section1{
             background: url("../img/noisy_net.png");
     }
+=======
+.wrapper{
+	width:100%;
+	height:100%;
+	background:url("../img/white-concrete-wall-texture2.jpg") no-repeat center;
+	background-size:cover;
+	 -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-attachment: fixed;
+}
+>>>>>>> c3636ab6346013ed0ce5c4b82b61517f5b09375c
 
 .navigator{
 	position:absolute;
@@ -235,7 +260,11 @@ a{
 
 .mainBody{
 	width:100%;
+<<<<<<< HEAD
 	position:absolute;
+=======
+	position:relative;
+>>>>>>> c3636ab6346013ed0ce5c4b82b61517f5b09375c
 }
 
 .mainBody h1{
@@ -264,11 +293,19 @@ a{
 	text-align:center;
 }
 
+<<<<<<< HEAD
 span.heart{
 position:relative;
 width:34px;
 overflow:inherit;
 color:#F0F0F0;
+=======
+.mainBody span.heart{
+position:relative;
+width:34px;
+overflow:inherit;
+color:#a11e1e;
+>>>>>>> c3636ab6346013ed0ce5c4b82b61517f5b09375c
 margin:0 auto;
 -webkit-animation:animateHeart 2.5s infinite;
 animation:animateHeart 2.5s infinite;
@@ -339,6 +376,7 @@ span.line{
 	animation:fadeInUp 3s;
 }
 
+<<<<<<< HEAD
 
 .aboutMe{
     width:100%;
@@ -375,6 +413,23 @@ span.line{
 }
 
 /***** Animations *****/
+=======
+.subBody{
+	width:100%;
+
+}
+
+.aboutMe{
+	background: #FFFFFF;
+	-webkit-box-shadow: 0px 2px 4px 0px rgba(50, 50, 50, 0.36);
+	-moz-box-shadow:    0px 2px 4px 0px rgba(50, 50, 50, 0.36);
+	box-shadow:         0px 2px 4px 0px rgba(50, 50, 50, 0.36);
+	height:200px;
+}
+
+
+/** Animations **/
+>>>>>>> c3636ab6346013ed0ce5c4b82b61517f5b09375c
 
 @-webkit-keyframes animateHeart{
 	0%{-webkit-transform:scale(1)}

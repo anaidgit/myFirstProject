@@ -1,3 +1,7 @@
+<<<<<<< HEAD
 http://ironsummitmedia.github.io/startbootstrap-grayscale/
 
 http://www.sanghan.co/#intro
+=======
+http://ironsummitmedia.github.io/startbootstrap-grayscale/
+>>>>>>> c3636ab6346013ed0ce5c4b82b61517f5b09375c

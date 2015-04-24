@@ -29,6 +29,10 @@ $(function() {
 
     animateLine(canvas, "canvas", "#000", pathString);
 
+<<<<<<< HEAD
 });
 
 
+=======
+});
+>>>>>>> c3636ab6346013ed0ce5c4b82b61517f5b09375c
