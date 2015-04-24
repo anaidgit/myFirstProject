@@ -212,6 +212,11 @@ a{
             background: url("../img/noisy_net.png");
     }
 
+#section2{
+            background: url("../img/crossword.png");
+    }
+
+
 .navigator{
 	position:absolute;
 	width:100%;
@@ -372,6 +377,23 @@ span.line{
     text-align:left;
     padding:10px 0px;
     border-color:#F0F0F0;
+}
+
+.pagefooter{
+    width:100%;
+    position:absolute;
+    overflow:hidden;
+    bottom:40%;
+}
+
+.pagefooter h1{
+    font-size:2em;
+    padding:20px;
+    text-align:center;
+}
+
+span.red{
+    color:#a11e1e;
 }
 
 /***** Animations *****/
